@@ -7,7 +7,7 @@ class Song
   end
 
   def song.create
-    @@ << self.new
+    @@all << self.new
   end
 
   def save
