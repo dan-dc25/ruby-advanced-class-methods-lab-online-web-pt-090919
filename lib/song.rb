@@ -57,4 +57,9 @@ def self.new_from_filename(name)
     @@all << song
     song
   end
+
+  def self.destroy_all
+    @@all.clear
+  end
+  
 end
